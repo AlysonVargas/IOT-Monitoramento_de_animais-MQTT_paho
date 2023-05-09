@@ -1,0 +1,128 @@
+{
+    "BROKER_URL": "localhost",
+    "BROKER_PORT": 1883,
+    "TOPICS": [
+        {
+            "TYPE": "multiple",
+            "PREFIX": "temp-amb",
+            "RANGE_START": 2,
+            "RANGE_END": 10,
+            "TIME_INTERVAL": 5,
+            "RETAIN_PROBABILITY": 0.25,
+            "DATA": [
+               
+                {
+                    "NAME": "Temperatura Estabulo",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura Pasto setor-1",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura Pasto setor-2",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                }
+            ]
+        },
+        {
+            "TYPE": "multiple",
+            "PREFIX": "BPM",
+            "RANGE_START": 2,
+            "RANGE_END": 10,
+            "TIME_INTERVAL": 5,
+            "RETAIN_PROBABILITY": 0.25,
+            "DATA": [
+               
+                {
+                    "NAME": "Frequencia Cardiaca",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                }
+            ]
+        },
+        {
+            "TYPE": "multiple",
+            "PREFIX": "temp-ani",
+            "RANGE_START": 2,
+            "RANGE_END": 10,
+            "TIME_INTERVAL": 5,
+            "RETAIN_PROBABILITY": 0.25,
+            "DATA": [
+               
+                {
+                    "NAME": "V1",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura V2",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura V3",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura P1",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura P2",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                },
+                {
+                    "NAME": "Temperatura P3",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                }
+            ]
+        },
+        {
+            "TYPE": "multiple",
+            "PREFIX": "peso",
+            "RANGE_START": 2,
+            "RANGE_END": 10,
+            "TIME_INTERVAL": 5,
+            "RETAIN_PROBABILITY": 0.25,
+            "DATA": [
+               
+                {
+                    "NAME": "Peso Animal",
+                    "TYPE": "float",
+                    "MIN_VALUE": 34,
+                    "MAX_VALUE": 43,
+                    "MAX_STEP": 0.2
+                }
+            ]
+        }
+      
+    ]
+}
